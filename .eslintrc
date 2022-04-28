@@ -1,0 +1,28 @@
+{
+    "env": {
+        "browser": true,  
+        "es6": true,      
+        "jest": true      
+    },
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+          },
+          "ecmaVersion": 12,
+          "sourceType": "module"
+    },
+    "extends": [
+      "eslint:recommended",
+      "plugin:react/recommended"
+    ],
+    "rules": {
+        "indent": [
+            "error",
+            2
+        ],  
+        "react/jsx-equals-spacing": [
+            2,
+            "never"
+        ]
+    }
+}
